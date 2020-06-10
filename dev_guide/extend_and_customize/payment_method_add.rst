@@ -367,7 +367,7 @@ Payment Method View Provider Class
 Implement the Payment Method View
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Finally, to implement the payment method view, create <bundle_root>/PaymentMethod/ViewCollectOnDeliveryView.php:
+Finally, to implement the payment method view, create <bundle_root>/PaymentMethod/View/CollectOnDeliveryView.php:
 
 
 Payment Method View Class
