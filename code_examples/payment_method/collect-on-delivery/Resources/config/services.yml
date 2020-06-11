@@ -43,7 +43,7 @@ services:
         public: false
         arguments:
             - '@acme_collect_on_delivery.payment_method.config.provider'
-            - '@acme_collect_on_delivery.factory.collect_on_delivery_config'
+            - '@acme_collect_on_delivery.factory.method_view.collect_on_delivery'
         tags:
             - { name: oro_payment.payment_method_view_provider }
 
